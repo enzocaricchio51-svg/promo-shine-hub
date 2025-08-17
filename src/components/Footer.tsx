@@ -24,16 +24,16 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Navegación</h3>
             <div className="space-y-2">
-              <a href="#inicio" className="block text-primary-foreground/90 hover:text-primary-foreground transition-colors text-sm">
+              <a href="/" className="block text-primary-foreground/90 hover:text-primary-foreground transition-colors text-sm">
                 Inicio
               </a>
-              <a href="#nosotros" className="block text-primary-foreground/90 hover:text-primary-foreground transition-colors text-sm">
+              <a href="/nosotros" className="block text-primary-foreground/90 hover:text-primary-foreground transition-colors text-sm">
                 Nosotros
               </a>
-              <a href="#productos" className="block text-primary-foreground/90 hover:text-primary-foreground transition-colors text-sm">
+              <a href="/productos" className="block text-primary-foreground/90 hover:text-primary-foreground transition-colors text-sm">
                 Productos
               </a>
-              <a href="#contacto" className="block text-primary-foreground/90 hover:text-primary-foreground transition-colors text-sm">
+              <a href="/contacto" className="block text-primary-foreground/90 hover:text-primary-foreground transition-colors text-sm">
                 Contacto
               </a>
             </div>
