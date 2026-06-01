@@ -1,21 +1,27 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
-import ProductCategories from "@/components/ProductCategories";
-import ClientsCarousel from "@/components/ClientsCarousel";
-import AboutSection from "@/components/AboutSection";
+import PlanesSection from "@/components/PlanesSection";
+import VocesSection from "@/components/VocesSection";
+import GaleriaSection from "@/components/GaleriaSection";
+import FaqContactSection from "@/components/FaqContactSection";
+import HailEffect from "@/components/HailEffect";
+import FloatingPenguin from "@/components/FloatingPenguin";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background relative">
+      <HailEffect />
       <Header />
-      <main>
+      <main className="relative z-10">
         <HeroSection />
-        <ProductCategories />
-        <ClientsCarousel />
-        <AboutSection />
+        <PlanesSection />
+        <VocesSection />
+        <GaleriaSection />
+        <FaqContactSection />
       </main>
       <Footer />
+      <FloatingPenguin />
     </div>
   );
 };
